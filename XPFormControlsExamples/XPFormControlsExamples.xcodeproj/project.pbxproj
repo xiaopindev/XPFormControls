@@ -25,6 +25,7 @@
 		B29FDB851C4976FE00DA6308 /* xpf_radioBtn_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B29FDB831C4976FE00DA6308 /* xpf_radioBtn_0@2x.png */; };
 		B29FDB861C4976FE00DA6308 /* xpf_radioBtn_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B29FDB841C4976FE00DA6308 /* xpf_radioBtn_1@2x.png */; };
 		B29FDB891C49F9B400DA6308 /* XPCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB881C49F9B400DA6308 /* XPCheckBoxViewController.m */; };
+		B29FDB8B1C4A853C00DA6308 /* XPFormControls.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B29FDB8A1C4A853C00DA6308 /* XPFormControls.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		B29FDB841C4976FE00DA6308 /* xpf_radioBtn_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xpf_radioBtn_1@2x.png"; sourceTree = "<group>"; };
 		B29FDB871C49F9B400DA6308 /* XPCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCheckBoxViewController.h; sourceTree = "<group>"; };
 		B29FDB881C49F9B400DA6308 /* XPCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCheckBoxViewController.m; sourceTree = "<group>"; };
+		B29FDB8A1C4A853C00DA6308 /* XPFormControls.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XPFormControls.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				B29FDB511C494CEA00DA6308 /* Assets.xcassets */,
 				B29FDB531C494CEA00DA6308 /* LaunchScreen.storyboard */,
 				B29FDB561C494CEA00DA6308 /* Info.plist */,
+				B29FDB8A1C4A853C00DA6308 /* XPFormControls.bundle */,
 				B29FDB451C494CEA00DA6308 /* Supporting Files */,
 			);
 			path = XPFormControlsExamples;
@@ -209,6 +212,7 @@
 				B29FDB7C1C494E1200DA6308 /* xpf_checkbox_1@2x.png in Resources */,
 				B29FDB551C494CEA00DA6308 /* LaunchScreen.storyboard in Resources */,
 				B29FDB521C494CEA00DA6308 /* Assets.xcassets in Resources */,
+				B29FDB8B1C4A853C00DA6308 /* XPFormControls.bundle in Resources */,
 				B29FDB501C494CEA00DA6308 /* Main.storyboard in Resources */,
 				B29FDB861C4976FE00DA6308 /* xpf_radioBtn_1@2x.png in Resources */,
 			);
