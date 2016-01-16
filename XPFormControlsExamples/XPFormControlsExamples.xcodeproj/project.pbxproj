@@ -60,6 +60,7 @@
 		B29FDB871C49F9B400DA6308 /* XPCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCheckBoxViewController.h; sourceTree = "<group>"; };
 		B29FDB881C49F9B400DA6308 /* XPCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCheckBoxViewController.m; sourceTree = "<group>"; };
 		B29FDB8A1C4A853C00DA6308 /* XPFormControls.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XPFormControls.bundle; sourceTree = "<group>"; };
+		B29FDB8C1C4AA7E400DA6308 /* XPFormControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPFormControl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 		B29FDB601C494D8300DA6308 /* XPFormControls */ = {
 			isa = PBXGroup;
 			children = (
+				B29FDB8C1C4AA7E400DA6308 /* XPFormControl.h */,
 				B29FDB611C494D8300DA6308 /* XPCheckBox.h */,
 				B29FDB621C494D8300DA6308 /* XPCheckBox.m */,
 				B29FDB631C494D8300DA6308 /* XPCheckBoxGroup.h */,

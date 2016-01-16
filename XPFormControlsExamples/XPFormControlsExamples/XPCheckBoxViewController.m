@@ -7,7 +7,7 @@
 //
 
 #import "XPCheckBoxViewController.h"
-#import "XPCheckBox.h"
+#import "XPFormControl.h"
 
 @interface XPCheckBoxViewController ()
 

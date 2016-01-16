@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Images/*.png"
+  s.resources = "XPFormControls/Images/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

@@ -9,19 +9,29 @@
 #import <UIKit/UIKit.h>
 
 typedef enum : NSUInteger {
-    XPCheckBoxStyleDefault,
+    XPCheckBoxStyleNoText,
     XPCheckBoxStyleImageText,
     XPCheckBoxStyleCustom
 } XPCheckBoxStyle;
 
-@interface XPCheckBox : UIButton
+typedef void(^CheckedBlock)(BOOL isChecked);
 
-/**
- *  风格样式，1.默认样式，2.自定义
- */
-@property (nonatomic,assign) XPCheckBoxStyle style;
+@interface XPCheckBox : UIView
+
+- (instancetype)initWithFrame:(CGRect)frame checkBoxStyle:(XPCheckBoxStyle)checkBoxStyle;
+
+@property (nonatomic,assign) XPCheckBoxStyle checkBoxStyle;
 @property (nonatomic,assign) BOOL checked;
+@property (nonatomic,copy) CheckedBlock checkedBlock;
+
+@property (nonatomic,assign) CGFloat imageSize;
 @property (nonatomic,strong) UIImage *uncheckedImage;
 @property (nonatomic,strong) UIImage *checkedImage;
+
+@property (nonatomic,strong) NSString *text;
+@property (nonatomic,strong) UIColor *textColor;
+@property (nonatomic,strong) UIFont *textFont;
+
+
 
 @end
