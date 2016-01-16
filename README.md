@@ -1,2 +1,4 @@
 # XPFormControls
-提供iOS相关表单控件
+
+iOS Objective-C Form Control Extension, simple use and custom.
+
