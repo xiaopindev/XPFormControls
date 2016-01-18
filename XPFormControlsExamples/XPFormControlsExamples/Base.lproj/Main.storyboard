@@ -30,7 +30,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="el3-RH-sKm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1592" y="728"/>
+            <point key="canvasLocation" x="1606" y="213"/>
+        </scene>
+        <!--TextField-->
+        <scene sceneID="jQ0-3y-Fc5">
+            <objects>
+                <viewController id="T8X-Mp-uRb" customClass="XPTextFieldViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wjh-kl-x7z"/>
+                        <viewControllerLayoutGuide type="bottom" id="4kP-lF-IFY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DWl-zI-VKC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="TextField" id="FL8-RJ-2tI"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lip-wf-qh0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1949" y="536"/>
         </scene>
         <!--XPFormControls-->
         <scene sceneID="tne-QT-ifu">
@@ -47,9 +68,19 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsz-9j-A3b">
                                 <rect key="frame" x="44" y="98" width="232" height="36"/>
                                 <animations/>
+                                <color key="backgroundColor" red="1" green="0.85569014990000003" blue="0.6355213287" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="CheckBox"/>
                                 <connections>
                                     <segue destination="c7N-s2-sfs" kind="show" id="0Wc-CB-fYC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Boy-Pw-57R">
+                                <rect key="frame" x="44" y="150" width="232" height="36"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.85569014990000003" blue="0.6355213287" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="TextField"/>
+                                <connections>
+                                    <segue destination="T8X-Mp-uRb" kind="show" id="2OB-jz-OjW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -68,6 +99,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IcF-ts-dHg" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WdV-5h-c7z">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -80,7 +112,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zPX-xx-ehP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="281" y="943"/>
+            <point key="canvasLocation" x="649" y="943"/>
         </scene>
     </scenes>
 </document>
