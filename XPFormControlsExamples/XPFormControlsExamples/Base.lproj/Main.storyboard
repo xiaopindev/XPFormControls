@@ -5,6 +5,33 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
+        <!--XPRadioButton-->
+        <scene sceneID="arM-Nh-LNq">
+            <objects>
+                <viewController id="hTr-rp-x5u" customClass="XPRadioButtonViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9nE-xo-Pme"/>
+                        <viewControllerLayoutGuide type="bottom" id="xt7-5b-ws0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p9U-Vq-NHb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="XPRadioButton" id="tbC-b1-J3E">
+                        <barButtonItem key="rightBarButtonItem" title="Values" id="dth-Dl-rGy">
+                            <connections>
+                                <action selector="radioAction:" destination="hTr-rp-x5u" id="hXQ-lC-uDX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wPe-dg-Cxf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1585" y="873"/>
+        </scene>
         <!--CheckBox-->
         <scene sceneID="zlu-E6-pF9">
             <objects>
@@ -74,8 +101,17 @@
                                     <segue destination="c7N-s2-sfs" kind="show" id="0Wc-CB-fYC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVH-iU-7C9">
+                                <rect key="frame" x="44" y="142" width="232" height="36"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.85569014990000003" blue="0.6355213287" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="RadioButton"/>
+                                <connections>
+                                    <segue destination="hTr-rp-x5u" kind="show" id="yyu-Bs-k87"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Boy-Pw-57R">
-                                <rect key="frame" x="44" y="150" width="232" height="36"/>
+                                <rect key="frame" x="44" y="186" width="232" height="36"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.85569014990000003" blue="0.6355213287" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="TextField"/>
