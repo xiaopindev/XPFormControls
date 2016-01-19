@@ -11,7 +11,7 @@
 
 typedef enum : NSInteger {
     XPTextFieldStyleDefault,        //圆角有边框
-    XPTextFieldStyleCustom1         //自定义图标，底部颜色
+    XPTextFieldStyleCustom1,         //自定义图标，底部颜色
 } XPTextFieldStyle;
 
 @interface XPTextField : UIView
@@ -42,6 +42,16 @@ typedef enum : NSInteger {
  *  底边线，针对 XPTextFieldStyleCustom1
  */
 @property (nonatomic,strong) UIColor *bottomLineColor;
+/**
+ *  底边线粗度，针对 XPTextFieldStyleCustom1
+ */
+@property (nonatomic,assign) CGFloat bottomLineWidth;
+/**
+ *  是否有图标，针对 XPTextFieldStyleCustom1
+ */
+@property (nonatomic,assign) BOOL hasIcon;
 
+
+- (instancetype)initWithFrame:(CGRect)frame tfStyle:(XPTextFieldStyle)style;
 
 @end

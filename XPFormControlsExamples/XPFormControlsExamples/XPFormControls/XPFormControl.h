@@ -10,11 +10,11 @@
 #ifndef XPFormControl_h
 #define XPFormControl_h
 
+#import "XPCombox.h"
 #import "XPCheckBox.h"
 #import "XPCheckBoxGroup.h"
 #import "XPRadioButton.h"
 #import "XPRadioButtonGroup.h"
-#import "XPDropDownBox.h"
 #import "XPLinkButton.h"
 #import "XPTextField.h"
 

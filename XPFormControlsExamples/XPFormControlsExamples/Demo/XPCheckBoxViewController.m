@@ -32,7 +32,7 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     
     CGFloat x,y;
-    self.view.backgroundColor = [UIColor orangeColor];
+//    self.view.backgroundColor = [UIColor orangeColor];
     
     //1.XPCheckBox XPCheckBoxStyleNoText
     self.checkbox1 = [[XPCheckBox alloc] initWithFrame:CGRectMake(50, 50, 30, 30)
@@ -70,17 +70,17 @@
     self.checkbox5 = [[XPCheckBox alloc] initWithFrame:CGRectMake(x, y, 120, 30)
                                          checkBoxStyle:XPCheckBoxStyleImageText];
     self.checkbox5.imageSize = 30;
-    self.checkbox5.text = @"记住密码";
+    self.checkbox5.text = @"record pwd";
     self.checkbox5.textColor = [UIColor redColor];
     self.checkbox5.textFont = [UIFont systemFontOfSize:16];
     [self.view addSubview:self.checkbox5];
     
     x = self.checkbox1.frame.origin.x;
     y = self.checkbox5.frame.origin.y+self.checkbox5.frame.size.height + 10;
-    self.checkbox6 = [[XPCheckBox alloc] initWithFrame:CGRectMake(x, y, 100, 20)
+    self.checkbox6 = [[XPCheckBox alloc] initWithFrame:CGRectMake(x, y, 120, 20)
                                          checkBoxStyle:XPCheckBoxStyleImageText];
     self.checkbox6.imageSize = 20;
-    self.checkbox6.text = @"记住密码";
+    self.checkbox6.text = @"record pwd";
     self.checkbox6.textColor = [UIColor redColor];
     self.checkbox6.textFont = [UIFont systemFontOfSize:14];
     [self.view addSubview:self.checkbox6];
@@ -90,7 +90,7 @@
     self.checkbox7 = [[XPCheckBox alloc] initWithFrame:CGRectMake(x, y, 80, 20)
                                          checkBoxStyle:XPCheckBoxStyleImageText];
     self.checkbox7.imageSize = 15;
-    self.checkbox7.text = @"记住密码";
+    self.checkbox7.text = @"Agree";
     self.checkbox7.textColor = [UIColor redColor];
     self.checkbox7.textFont = [UIFont systemFontOfSize:12];
     [self.view addSubview:self.checkbox7];
@@ -105,8 +105,8 @@
     self.checkbox8.text = @"记住密码";
     self.checkbox8.textColor = [UIColor greenColor];
     self.checkbox8.textFont = [UIFont systemFontOfSize:12];
-    self.checkbox8.checkedImage = [UIImage imageNamed:@"xpf_checkbox_1"];
-    self.checkbox8.uncheckedImage = [UIImage imageNamed:@"xpf_checkbox_0"];
+    self.checkbox8.checkedImage = [UIImage imageNamed:@"xpf_cb_2_1"];
+    self.checkbox8.uncheckedImage = [UIImage imageNamed:@"xpf_cb_2_0"];
     [self.view addSubview:self.checkbox8];
     
     x = self.checkbox1.frame.origin.x;
@@ -117,20 +117,20 @@
     self.checkbox9.text = @"记住密码";
     self.checkbox9.textColor = [UIColor greenColor];
     self.checkbox9.textFont = [UIFont systemFontOfSize:14];
-    self.checkbox9.checkedImage = [UIImage imageNamed:@"xpf_checkbox_1"];
-    self.checkbox9.uncheckedImage = [UIImage imageNamed:@"xpf_checkbox_0"];
+    self.checkbox9.checkedImage = [UIImage imageNamed:@"xpf_cb_2_1"];
+    self.checkbox9.uncheckedImage = [UIImage imageNamed:@"xpf_cb_2_0"];
     [self.view addSubview:self.checkbox9];
     
     x = self.checkbox1.frame.origin.x;
     y = self.checkbox9.frame.origin.y+self.checkbox9.frame.size.height + 10;
-    self.checkbox10 = [[XPCheckBox alloc] initWithFrame:CGRectMake(x, y, 80, 20)
+    self.checkbox10 = [[XPCheckBox alloc] initWithFrame:CGRectMake(x, y, 200, 20)
                                           checkBoxStyle:XPCheckBoxStyleCustom];
     self.checkbox10.imageSize = 15;
-    self.checkbox10.text = @"记住密码";
+    self.checkbox10.text = @"已经阅读并同意协议";
     self.checkbox10.textColor = [UIColor greenColor];
     self.checkbox10.textFont = [UIFont systemFontOfSize:12];
-    self.checkbox10.checkedImage = [UIImage imageNamed:@"xpf_checkbox_1"];
-    self.checkbox10.uncheckedImage = [UIImage imageNamed:@"xpf_checkbox_0"];
+    self.checkbox10.checkedImage = [UIImage imageNamed:@"xpf_cb_2_1"];
+    self.checkbox10.uncheckedImage = [UIImage imageNamed:@"xpf_cb_2_0"];
     [self.view addSubview:self.checkbox10];
 }
 

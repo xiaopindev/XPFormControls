@@ -1,14 +1,14 @@
 //
-//  XPDropDownBox.m
-//  XPFormControls
+//  XPCombox.m
+//  XPFormControlsExamples
 //
-//  Created by xiaopin on 16/1/15.
+//  Created by xiaopin on 16/1/19.
 //  Copyright © 2016年 pinguo. All rights reserved.
 //
 
-#import "XPDropDownBox.h"
+#import "XPCombox.h"
 
-@implementation XPDropDownBox
+@implementation XPCombox
 
 /*
 // Only override drawRect: if you perform custom drawing.

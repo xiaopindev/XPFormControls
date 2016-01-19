@@ -24,7 +24,7 @@
         CGFloat y = (self.bounds.size.height - _imageSize)/2;
         y = y < 0?0:y;
         _imgView = [[UIImageView alloc] initWithFrame:CGRectMake(5, y, _imageSize, _imageSize)];
-        _imgView.image = [UIImage imageNamed:@"xpf_radioBtn_0"];
+        _imgView.image = [UIImage imageNamed:@"xpf_rb_2_0"];
         _imgView.contentMode = UIViewContentModeScaleToFill;
     }
     return _imgView;
@@ -69,18 +69,18 @@
             
             CGFloat width = frame.size.width;
             CGFloat height = frame.size.height;
-            width = width>25?25:width;
-            height = height > 25?25:height;
+            width = width>50?50:width;
+            height = height > 50?50:height;
             self.frame = CGRectMake(frame.origin.x, frame.origin.y, width, height);
             self.imgView.frame = self.bounds;
             self.button.frame = self.bounds;
-            self.imgView.image = [UIImage imageNamed:@"xpf_radioBtn_0"];
+            self.imgView.image = [UIImage imageNamed:@"xpf_cb_2_0"];
         }else if (self.checkBoxStyle == XPCheckBoxStyleImageText){
             [self addSubview:self.imgView];
             [self addSubview:self.labText];
             [self addSubview:self.button];
             
-            self.imgView.image = [UIImage imageNamed:@"xpf_radioBtn_0"];
+            self.imgView.image = [UIImage imageNamed:@"xpf_cb_2_0"];
         }else if(self.checkBoxStyle == XPCheckBoxStyleCustom){
             [self addSubview:self.imgView];
             [self addSubview:self.labText];
@@ -130,10 +130,10 @@
     
     //改变按钮的状态
     if(self.checkBoxStyle == XPCheckBoxStyleNoText){
-        UIImage *image = self.checked ? [UIImage imageNamed:@"xpf_radioBtn_1"]:[UIImage imageNamed:@"xpf_radioBtn_0"];
+        UIImage *image = self.checked ? [UIImage imageNamed:@"xpf_cb_2_1"]:[UIImage imageNamed:@"xpf_cb_2_0"];
         [self.button setBackgroundImage:image forState:UIControlStateNormal];
     } else if(self.checkBoxStyle == XPCheckBoxStyleImageText){
-        self.imgView.image = self.checked ? [UIImage imageNamed:@"xpf_radioBtn_1"]:[UIImage imageNamed:@"xpf_radioBtn_0"];
+        self.imgView.image = self.checked ? [UIImage imageNamed:@"xpf_cb_2_1"]:[UIImage imageNamed:@"xpf_cb_2_0"];
     } else if(self.checkBoxStyle == XPCheckBoxStyleCustom){
         self.imgView.image = self.checked ? self.checkedImage :self.uncheckedImage;
     }
