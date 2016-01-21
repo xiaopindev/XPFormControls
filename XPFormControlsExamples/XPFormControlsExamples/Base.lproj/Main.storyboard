@@ -32,6 +32,33 @@
             </objects>
             <point key="canvasLocation" x="1585" y="873"/>
         </scene>
+        <!--XPRadioButtonGroup-->
+        <scene sceneID="P5u-Mv-Qpc">
+            <objects>
+                <viewController id="pgP-P8-yKk" customClass="XPRadioButtonGroupViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CNN-OP-ocu"/>
+                        <viewControllerLayoutGuide type="bottom" id="CdF-Zg-gLP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bo3-jP-SDQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="XPRadioButtonGroup" id="TRx-gw-DDi">
+                        <barButtonItem key="rightBarButtonItem" title="获取值" id="79r-NA-b2U">
+                            <connections>
+                                <action selector="showValue:" destination="pgP-P8-yKk" id="mqG-p8-lYo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yyr-4q-tat" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1496" y="1514"/>
+        </scene>
         <!--CheckBox-->
         <scene sceneID="zlu-E6-pF9">
             <objects>
@@ -117,6 +144,15 @@
                                 <state key="normal" title="TextField"/>
                                 <connections>
                                     <segue destination="T8X-Mp-uRb" kind="show" id="2OB-jz-OjW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hc4-wd-0t3">
+                                <rect key="frame" x="44" y="230" width="232" height="36"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.85569014990000003" blue="0.6355213287" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="RadioButtonGroup"/>
+                                <connections>
+                                    <segue destination="pgP-P8-yKk" kind="show" id="N2p-zf-ld8"/>
                                 </connections>
                             </button>
                         </subviews>

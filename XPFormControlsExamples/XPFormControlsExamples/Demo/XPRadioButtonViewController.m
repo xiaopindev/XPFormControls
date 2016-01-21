@@ -36,7 +36,7 @@
     //1.XPRadioButton XPRadioStyleNoText
     self.radio1 = [[XPRadioButton alloc] initWithFrame:CGRectMake(50, 50, 30, 30)
                                          radioStyle:XPRadioStyleNoText];
-    self.radio1.checkedBlock = ^(BOOL isChecked){
+    self.radio1.checkedBlock = ^(id responseObj,BOOL isChecked){
         if(isChecked){
             NSLog(@"radio1 Checked");
         }else{

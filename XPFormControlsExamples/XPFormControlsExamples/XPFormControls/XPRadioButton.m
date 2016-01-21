@@ -97,6 +97,17 @@
     
 }
 
+-(void)setChecked:(BOOL)checked{
+    _checked = checked;
+    if(self.radioStyle == XPRadioStyleNoText){
+        self.imgView.image = checked ? [UIImage imageNamed:@"xpf_rb_2_1"]:[UIImage imageNamed:@"xpf_rb_2_0"];
+    }else if (self.radioStyle == XPRadioStyleImageText){
+        self.imgView.image = checked ? [UIImage imageNamed:@"xpf_rb_2_1"]:[UIImage imageNamed:@"xpf_rb_2_0"];
+    }else if(self.radioStyle == XPRadioStyleCustom){
+        self.imgView.image = checked ? self.checkedImage:self.uncheckedImage;
+    }
+}
+
 -(void)setImageSize:(CGFloat)imageSize{
     _imageSize = imageSize;
     CGFloat y = (self.bounds.size.height - _imageSize)/2;
@@ -142,7 +153,7 @@
     //如果有Block就回调
     if(self.checkedBlock)
     {
-        self.checkedBlock(self.checked);
+        self.checkedBlock(self,self.checked);
     }
 }
 

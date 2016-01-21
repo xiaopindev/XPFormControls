@@ -14,7 +14,7 @@ typedef enum : NSUInteger {
     XPCheckBoxStyleCustom
 } XPCheckBoxStyle;
 
-typedef void(^CheckedBlock)(BOOL isChecked);
+typedef void(^CheckedBlock)(id responseObj,BOOL isChecked);
 
 @interface XPCheckBox : UIView
 

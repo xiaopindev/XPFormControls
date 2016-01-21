@@ -25,6 +25,7 @@
 		B22F54F41C4E903600AB2D12 /* XPCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F54EF1C4E903600AB2D12 /* XPCheckBoxViewController.m */; };
 		B22F54F51C4E903600AB2D12 /* XPRadioButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F54F11C4E903600AB2D12 /* XPRadioButtonViewController.m */; };
 		B22F54F61C4E903600AB2D12 /* XPTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F54F31C4E903600AB2D12 /* XPTextFieldViewController.m */; };
+		B22F55711C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F55701C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.m */; };
 		B29FDB471C494CEA00DA6308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB461C494CEA00DA6308 /* main.m */; };
 		B29FDB4A1C494CEA00DA6308 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB491C494CEA00DA6308 /* AppDelegate.m */; };
 		B29FDB4D1C494CEA00DA6308 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB4C1C494CEA00DA6308 /* ViewController.m */; };
@@ -63,6 +64,8 @@
 		B22F54F11C4E903600AB2D12 /* XPRadioButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRadioButtonViewController.m; sourceTree = "<group>"; };
 		B22F54F21C4E903600AB2D12 /* XPTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPTextFieldViewController.h; sourceTree = "<group>"; };
 		B22F54F31C4E903600AB2D12 /* XPTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPTextFieldViewController.m; sourceTree = "<group>"; };
+		B22F556F1C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRadioButtonGroupViewController.h; sourceTree = "<group>"; };
+		B22F55701C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRadioButtonGroupViewController.m; sourceTree = "<group>"; };
 		B29FDB421C494CEA00DA6308 /* XPFormControlsExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPFormControlsExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29FDB461C494CEA00DA6308 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B29FDB481C494CEA00DA6308 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -198,6 +201,8 @@
 				B22F54F11C4E903600AB2D12 /* XPRadioButtonViewController.m */,
 				B22F54F21C4E903600AB2D12 /* XPTextFieldViewController.h */,
 				B22F54F31C4E903600AB2D12 /* XPTextFieldViewController.m */,
+				B22F556F1C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.h */,
+				B22F55701C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				B29FDB751C494D8300DA6308 /* XPTextField.m in Sources */,
 				B29FDB731C494D8300DA6308 /* XPRadioButton.m in Sources */,
 				B29FDB741C494D8300DA6308 /* XPRadioButtonGroup.m in Sources */,
+				B22F55711C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.m in Sources */,
 				B22F54F61C4E903600AB2D12 /* XPTextFieldViewController.m in Sources */,
 				B29FDB701C494D8300DA6308 /* XPCheckBoxGroup.m in Sources */,
 				B29FDB721C494D8300DA6308 /* XPLinkButton.m in Sources */,

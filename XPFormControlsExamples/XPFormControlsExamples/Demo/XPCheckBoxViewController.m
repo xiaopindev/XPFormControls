@@ -37,7 +37,7 @@
     //1.XPCheckBox XPCheckBoxStyleNoText
     self.checkbox1 = [[XPCheckBox alloc] initWithFrame:CGRectMake(50, 50, 30, 30)
                                          checkBoxStyle:XPCheckBoxStyleNoText];
-    self.checkbox1.checkedBlock = ^(BOOL isChecked){
+    self.checkbox1.checkedBlock = ^(id responseObj,BOOL isChecked){
         if(isChecked){
             NSLog(@"chebox1 Checked");
         }else{

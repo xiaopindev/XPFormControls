@@ -82,7 +82,7 @@
             [self addSubview:self.button];
             
             self.imgView.image = [UIImage imageNamed:@"xpf_rb_2_0"];
-        }else if(self.radioStyle == XPRadioStyleImageText){
+        }else if(self.radioStyle == XPRadioStyleCustom){
             [self addSubview:self.imgView];
             [self addSubview:self.labText];
             [self addSubview:self.button];
@@ -95,6 +95,17 @@
 -(void)setRadioStyle:(XPRadioStyle)radioStyle{
     _radioStyle = radioStyle;
     
+}
+
+-(void)setChecked:(BOOL)checked{
+    _checked = checked;
+    if(self.radioStyle == XPRadioStyleNoText){
+        self.imgView.image = checked ? [UIImage imageNamed:@"xpf_rb_2_1"]:[UIImage imageNamed:@"xpf_rb_2_0"];
+    }else if (self.radioStyle == XPRadioStyleImageText){
+        self.imgView.image = checked ? [UIImage imageNamed:@"xpf_rb_2_1"]:[UIImage imageNamed:@"xpf_rb_2_0"];
+    }else if(self.radioStyle == XPRadioStyleCustom){
+        self.imgView.image = checked ? self.checkedImage:self.uncheckedImage;
+    }
 }
 
 -(void)setImageSize:(CGFloat)imageSize{
@@ -142,7 +153,7 @@
     //如果有Block就回调
     if(self.checkedBlock)
     {
-        self.checkedBlock(self.checked);
+        self.checkedBlock(self,self.checked);
     }
 }
 
