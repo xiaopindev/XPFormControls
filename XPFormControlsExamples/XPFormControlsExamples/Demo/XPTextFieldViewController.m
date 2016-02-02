@@ -118,6 +118,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)showValues:(id)sender {
+    
+    NSLog(@"text1:%@",self.textField1.text);
+    NSLog(@"text2:%@",self.textField2.text);
+    NSLog(@"text3:%@",self.textField3.text);
+    NSLog(@"text4:%@",self.textField4.text);
+    NSLog(@"text5:%@",self.textField5.text);
+    NSLog(@"text6:%@",self.textField6.text);
+    NSLog(@"text7:%@",self.textField7.text);
+    
+}
 
 /*
 #pragma mark - Navigation
