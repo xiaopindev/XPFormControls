@@ -144,6 +144,7 @@
 
 -(void)textFieldDidEndEditing:(UITextField *)textField{
     NSLog(@"textFieldDidEndEditing:%@",textField.text);
+    _text = textField.text;
 }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
