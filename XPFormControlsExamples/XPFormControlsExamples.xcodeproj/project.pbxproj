@@ -238,6 +238,7 @@
 				TargetAttributes = {
 					B29FDB411C494CEA00DA6308 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = WH7UN33NR9;
 					};
 				};
 			};
@@ -416,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = ./XPFormControlsExamples/PrefixHeader.pch;
 				INFOPLIST_FILE = XPFormControlsExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -428,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = ./XPFormControlsExamples/PrefixHeader.pch;
 				INFOPLIST_FILE = XPFormControlsExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
