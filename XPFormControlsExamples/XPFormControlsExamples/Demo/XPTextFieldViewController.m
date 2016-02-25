@@ -119,7 +119,7 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)showValues:(id)sender {
-    
+    [self.view endEditing:YES];
     NSLog(@"text1:%@",self.textField1.text);
     NSLog(@"text2:%@",self.textField2.text);
     NSLog(@"text3:%@",self.textField3.text);

@@ -147,9 +147,9 @@
     }
 }
 
--(void)textFieldDidEndEditing:(UITextField *)textField{
-    NSLog(@"------%@",textField.text);
-}
+//-(void)textFieldDidEndEditing:(UITextField *)textField{
+//    NSLog(@"------%@",textField.text);
+//}
 
 //-(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
 //    _text = [NSString stringWithFormat:@"%@%@",textField.text,string];
