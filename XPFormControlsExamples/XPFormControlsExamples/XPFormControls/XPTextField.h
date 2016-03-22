@@ -53,7 +53,6 @@ typedef enum : NSInteger {
  */
 @property (nonatomic,assign) BOOL hasIcon;
 
-
 - (instancetype)initWithFrame:(CGRect)frame tfStyle:(XPTextFieldStyle)style;
 
 - (NSString*)text;

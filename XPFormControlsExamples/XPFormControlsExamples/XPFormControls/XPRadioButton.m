@@ -83,6 +83,7 @@
             
             self.imgView.image = [UIImage imageNamed:@"xpf_rb_2_0"];
         }else if(self.radioStyle == XPRadioStyleCustom){
+
             [self addSubview:self.imgView];
             [self addSubview:self.labText];
             [self addSubview:self.button];
