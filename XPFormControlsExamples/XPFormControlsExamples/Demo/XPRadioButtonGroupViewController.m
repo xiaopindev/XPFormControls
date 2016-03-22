@@ -46,6 +46,9 @@
     self.group2.textFont = [UIFont systemFontOfSize:18];
     self.group2.checkImage = [UIImage imageNamed:@"xpf_rb_1_1"];
     self.group2.uncheckImage = [UIImage imageNamed:@"xpf_rb_1_0"];
+    self.group2.checkAction = ^(NSInteger index){
+        NSLog(@"selectedIndx:%ld",(long)index);
+    };
     [self.view addSubview:self.group2];
     
     self.group2.items = dataItems;

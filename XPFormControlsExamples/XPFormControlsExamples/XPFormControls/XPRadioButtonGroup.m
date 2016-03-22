@@ -97,6 +97,9 @@
                 
                 weakSelf.selectedIndex = i;
                 
+                if(self.checkAction){
+                    self.checkAction(weakSelf.selectedIndex);
+                }
                 //NSLog(@"%ld,%@,%@",weakSelf.selectedIndex,weakSelf.selectedValue,weakSelf.selectedText);
             }
         };
