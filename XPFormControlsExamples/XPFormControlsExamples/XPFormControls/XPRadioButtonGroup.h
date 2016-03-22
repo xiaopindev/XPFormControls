@@ -28,4 +28,6 @@
 @property (nonatomic,strong) NSString *selectedValue;
 @property (nonatomic,strong) NSString *selectedText;
 
+@property (nonatomic, copy) void (^checkAction)(NSInteger index);
+
 @end
