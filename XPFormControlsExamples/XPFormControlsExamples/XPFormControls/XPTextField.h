@@ -15,13 +15,15 @@ typedef enum : NSInteger {
 } XPTextFieldStyle;
 
 @interface XPTextField : UIView
+{
+    NSString *_text;
+}
 
 /**
  *  文本框样式
  */
 @property (nonatomic,assign) XPTextFieldStyle style;
 @property (nonatomic,strong) NSString *placeHolder;
-@property (nonatomic,strong) NSString *text;
 @property (nonatomic,strong) UIColor *textColor;
 @property (nonatomic,strong) UIFont *textFont;
 
@@ -51,7 +53,9 @@ typedef enum : NSInteger {
  */
 @property (nonatomic,assign) BOOL hasIcon;
 
-
 - (instancetype)initWithFrame:(CGRect)frame tfStyle:(XPTextFieldStyle)style;
+
+- (NSString*)text;
+- (void)setText:(NSString*)text;
 
 @end

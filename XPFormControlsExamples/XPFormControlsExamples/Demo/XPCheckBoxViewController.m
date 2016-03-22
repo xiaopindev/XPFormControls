@@ -20,6 +20,7 @@
 @property (nonatomic,strong) XPCheckBox *checkbox8;
 @property (nonatomic,strong) XPCheckBox *checkbox9;
 @property (nonatomic,strong) XPCheckBox *checkbox10;
+@property (nonatomic,strong) XPCheckBox *checkbox11;
 
 @end
 
@@ -37,7 +38,7 @@
     //1.XPCheckBox XPCheckBoxStyleNoText
     self.checkbox1 = [[XPCheckBox alloc] initWithFrame:CGRectMake(50, 50, 30, 30)
                                          checkBoxStyle:XPCheckBoxStyleNoText];
-    self.checkbox1.checkedBlock = ^(BOOL isChecked){
+    self.checkbox1.checkedBlock = ^(id responseObj,BOOL isChecked){
         if(isChecked){
             NSLog(@"chebox1 Checked");
         }else{
@@ -132,6 +133,18 @@
     self.checkbox10.checkedImage = [UIImage imageNamed:@"xpf_cb_2_1"];
     self.checkbox10.uncheckedImage = [UIImage imageNamed:@"xpf_cb_2_0"];
     [self.view addSubview:self.checkbox10];
+    
+    x = self.checkbox1.frame.origin.x;
+    y = self.checkbox10.frame.origin.y+self.checkbox10.frame.size.height + 10;
+    self.checkbox11 = [[XPCheckBox alloc] initWithFrame:CGRectMake(x, y, 220, 30)
+                                          checkBoxStyle:XPCheckBoxStyleCustom];
+    self.checkbox11.imageSize = 30;
+    self.checkbox11.text = @"已经阅读并同意协议";
+    self.checkbox11.textColor = [UIColor greenColor];
+    self.checkbox11.textFont = [UIFont systemFontOfSize:20];
+    self.checkbox11.checkedImage = [UIImage imageNamed:@"xpf_cb_2_1"];
+    self.checkbox11.uncheckedImage = [UIImage imageNamed:@"xpf_cb_2_0"];
+    [self.view addSubview:self.checkbox11];
 }
 
 - (void)didReceiveMemoryWarning {

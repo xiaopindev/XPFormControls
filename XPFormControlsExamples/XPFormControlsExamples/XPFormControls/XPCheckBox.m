@@ -141,7 +141,7 @@
     //如果有Block就回调
     if(self.checkedBlock)
     {
-        self.checkedBlock(self.checked);
+        self.checkedBlock(self,self.checked);
     }
 }
 

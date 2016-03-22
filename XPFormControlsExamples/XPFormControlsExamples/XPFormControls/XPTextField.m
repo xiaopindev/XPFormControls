@@ -92,6 +92,11 @@
     self.textField.secureTextEntry = secureTextEntry;
 }
 
+- (NSString *)text{
+    _text = self.textField.text;
+    return _text;
+}
+
 -(void)setText:(NSString *)text{
     _text = text;
     self.textField.text = text;
@@ -142,9 +147,15 @@
     }
 }
 
--(void)textFieldDidEndEditing:(UITextField *)textField{
-    NSLog(@"textFieldDidEndEditing:%@",textField.text);
-}
+//-(void)textFieldDidEndEditing:(UITextField *)textField{
+//    NSLog(@"------%@",textField.text);
+//}
+
+//-(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
+//    _text = [NSString stringWithFormat:@"%@%@",textField.text,string];
+//    NSLog(@"%@",_text);
+//    return YES;
+//}
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
     [textField resignFirstResponder];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22F0D461CA1B9520048CA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22F0D451CA1B9520048CA11 /* Main.storyboard */; };
 		B22F54CD1C4D46B800AB2D12 /* xpf_cb_1_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F54BF1C4D46B800AB2D12 /* xpf_cb_1_0@2x.png */; };
 		B22F54CE1C4D46B800AB2D12 /* xpf_cb_1_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F54C01C4D46B800AB2D12 /* xpf_cb_1_1@2x.png */; };
 		B22F54CF1C4D46B800AB2D12 /* xpf_cb_2_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F54C11C4D46B800AB2D12 /* xpf_cb_2_0@2x.png */; };
@@ -21,12 +22,14 @@
 		B22F54D81C4D46B800AB2D12 /* xpf_rb_2_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F54CA1C4D46B800AB2D12 /* xpf_rb_2_1@3x.png */; };
 		B22F54D91C4D46B800AB2D12 /* xpf_rb_3_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F54CB1C4D46B800AB2D12 /* xpf_rb_3_0@2x.png */; };
 		B22F54DA1C4D46B800AB2D12 /* xpf_rb_3_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F54CC1C4D46B800AB2D12 /* xpf_rb_3_1@2x.png */; };
-		B22F54DD1C4DCB5A00AB2D12 /* XPRadioButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F54DC1C4DCB5A00AB2D12 /* XPRadioButtonViewController.m */; };
 		B22F54E01C4DCD1100AB2D12 /* XPCombox.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F54DF1C4DCD1100AB2D12 /* XPCombox.m */; };
+		B22F54F41C4E903600AB2D12 /* XPCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F54EF1C4E903600AB2D12 /* XPCheckBoxViewController.m */; };
+		B22F54F51C4E903600AB2D12 /* XPRadioButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F54F11C4E903600AB2D12 /* XPRadioButtonViewController.m */; };
+		B22F54F61C4E903600AB2D12 /* XPTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F54F31C4E903600AB2D12 /* XPTextFieldViewController.m */; };
+		B22F55711C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F55701C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.m */; };
 		B29FDB471C494CEA00DA6308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB461C494CEA00DA6308 /* main.m */; };
 		B29FDB4A1C494CEA00DA6308 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB491C494CEA00DA6308 /* AppDelegate.m */; };
 		B29FDB4D1C494CEA00DA6308 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB4C1C494CEA00DA6308 /* ViewController.m */; };
-		B29FDB501C494CEA00DA6308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29FDB4E1C494CEA00DA6308 /* Main.storyboard */; };
 		B29FDB521C494CEA00DA6308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29FDB511C494CEA00DA6308 /* Assets.xcassets */; };
 		B29FDB551C494CEA00DA6308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29FDB531C494CEA00DA6308 /* LaunchScreen.storyboard */; };
 		B29FDB6F1C494D8300DA6308 /* XPCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB621C494D8300DA6308 /* XPCheckBox.m */; };
@@ -36,11 +39,10 @@
 		B29FDB741C494D8300DA6308 /* XPRadioButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB6C1C494D8300DA6308 /* XPRadioButtonGroup.m */; };
 		B29FDB751C494D8300DA6308 /* XPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB6E1C494D8300DA6308 /* XPTextField.m */; };
 		B29FDB8B1C4A853C00DA6308 /* XPFormControls.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B29FDB8A1C4A853C00DA6308 /* XPFormControls.bundle */; };
-		B29FDB981C4B522C00DA6308 /* XPCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB951C4B522C00DA6308 /* XPCheckBoxViewController.m */; };
-		B29FDB991C4B522C00DA6308 /* XPTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB971C4B522C00DA6308 /* XPTextFieldViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B22F0D451CA1B9520048CA11 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B22F54BF1C4D46B800AB2D12 /* xpf_cb_1_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xpf_cb_1_0@2x.png"; sourceTree = "<group>"; };
 		B22F54C01C4D46B800AB2D12 /* xpf_cb_1_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xpf_cb_1_1@2x.png"; sourceTree = "<group>"; };
 		B22F54C11C4D46B800AB2D12 /* xpf_cb_2_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xpf_cb_2_0@2x.png"; sourceTree = "<group>"; };
@@ -55,17 +57,22 @@
 		B22F54CA1C4D46B800AB2D12 /* xpf_rb_2_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xpf_rb_2_1@3x.png"; sourceTree = "<group>"; };
 		B22F54CB1C4D46B800AB2D12 /* xpf_rb_3_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xpf_rb_3_0@2x.png"; sourceTree = "<group>"; };
 		B22F54CC1C4D46B800AB2D12 /* xpf_rb_3_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xpf_rb_3_1@2x.png"; sourceTree = "<group>"; };
-		B22F54DB1C4DCB5A00AB2D12 /* XPRadioButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRadioButtonViewController.h; sourceTree = "<group>"; };
-		B22F54DC1C4DCB5A00AB2D12 /* XPRadioButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRadioButtonViewController.m; sourceTree = "<group>"; };
 		B22F54DE1C4DCD1100AB2D12 /* XPCombox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCombox.h; sourceTree = "<group>"; };
 		B22F54DF1C4DCD1100AB2D12 /* XPCombox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCombox.m; sourceTree = "<group>"; };
+		B22F54EE1C4E903600AB2D12 /* XPCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCheckBoxViewController.h; sourceTree = "<group>"; };
+		B22F54EF1C4E903600AB2D12 /* XPCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCheckBoxViewController.m; sourceTree = "<group>"; };
+		B22F54F01C4E903600AB2D12 /* XPRadioButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRadioButtonViewController.h; sourceTree = "<group>"; };
+		B22F54F11C4E903600AB2D12 /* XPRadioButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRadioButtonViewController.m; sourceTree = "<group>"; };
+		B22F54F21C4E903600AB2D12 /* XPTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPTextFieldViewController.h; sourceTree = "<group>"; };
+		B22F54F31C4E903600AB2D12 /* XPTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPTextFieldViewController.m; sourceTree = "<group>"; };
+		B22F556F1C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRadioButtonGroupViewController.h; sourceTree = "<group>"; };
+		B22F55701C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRadioButtonGroupViewController.m; sourceTree = "<group>"; };
 		B29FDB421C494CEA00DA6308 /* XPFormControlsExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPFormControlsExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29FDB461C494CEA00DA6308 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B29FDB481C494CEA00DA6308 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B29FDB491C494CEA00DA6308 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B29FDB4B1C494CEA00DA6308 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B29FDB4C1C494CEA00DA6308 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B29FDB4F1C494CEA00DA6308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B29FDB511C494CEA00DA6308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B29FDB541C494CEA00DA6308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B29FDB561C494CEA00DA6308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,10 +90,6 @@
 		B29FDB6E1C494D8300DA6308 /* XPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPTextField.m; sourceTree = "<group>"; };
 		B29FDB8A1C4A853C00DA6308 /* XPFormControls.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XPFormControls.bundle; sourceTree = "<group>"; };
 		B29FDB8C1C4AA7E400DA6308 /* XPFormControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPFormControl.h; sourceTree = "<group>"; };
-		B29FDB941C4B522C00DA6308 /* XPCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCheckBoxViewController.h; sourceTree = "<group>"; };
-		B29FDB951C4B522C00DA6308 /* XPCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCheckBoxViewController.m; sourceTree = "<group>"; };
-		B29FDB961C4B522C00DA6308 /* XPTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPTextFieldViewController.h; sourceTree = "<group>"; };
-		B29FDB971C4B522C00DA6308 /* XPTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPTextFieldViewController.m; sourceTree = "<group>"; };
 		B29FDB9A1C4B529800DA6308 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,13 +194,15 @@
 		B29FDB931C4B522C00DA6308 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				B29FDB4E1C494CEA00DA6308 /* Main.storyboard */,
-				B29FDB941C4B522C00DA6308 /* XPCheckBoxViewController.h */,
-				B29FDB951C4B522C00DA6308 /* XPCheckBoxViewController.m */,
-				B22F54DB1C4DCB5A00AB2D12 /* XPRadioButtonViewController.h */,
-				B22F54DC1C4DCB5A00AB2D12 /* XPRadioButtonViewController.m */,
-				B29FDB961C4B522C00DA6308 /* XPTextFieldViewController.h */,
-				B29FDB971C4B522C00DA6308 /* XPTextFieldViewController.m */,
+				B22F0D451CA1B9520048CA11 /* Main.storyboard */,
+				B22F54EE1C4E903600AB2D12 /* XPCheckBoxViewController.h */,
+				B22F54EF1C4E903600AB2D12 /* XPCheckBoxViewController.m */,
+				B22F54F01C4E903600AB2D12 /* XPRadioButtonViewController.h */,
+				B22F54F11C4E903600AB2D12 /* XPRadioButtonViewController.m */,
+				B22F54F21C4E903600AB2D12 /* XPTextFieldViewController.h */,
+				B22F54F31C4E903600AB2D12 /* XPTextFieldViewController.m */,
+				B22F556F1C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.h */,
+				B22F55701C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				TargetAttributes = {
 					B29FDB411C494CEA00DA6308 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = WH7UN33NR9;
 					};
 				};
 			};
@@ -274,7 +280,7 @@
 				B29FDB8B1C4A853C00DA6308 /* XPFormControls.bundle in Resources */,
 				B22F54DA1C4D46B800AB2D12 /* xpf_rb_3_1@2x.png in Resources */,
 				B22F54CE1C4D46B800AB2D12 /* xpf_cb_1_1@2x.png in Resources */,
-				B29FDB501C494CEA00DA6308 /* Main.storyboard in Resources */,
+				B22F0D461CA1B9520048CA11 /* Main.storyboard in Resources */,
 				B22F54D51C4D46B800AB2D12 /* xpf_rb_2_0@2x.png in Resources */,
 				B22F54D41C4D46B800AB2D12 /* xpf_rb_1_1@2x.png in Resources */,
 			);
@@ -290,14 +296,15 @@
 				B29FDB4D1C494CEA00DA6308 /* ViewController.m in Sources */,
 				B29FDB4A1C494CEA00DA6308 /* AppDelegate.m in Sources */,
 				B29FDB6F1C494D8300DA6308 /* XPCheckBox.m in Sources */,
+				B22F54F41C4E903600AB2D12 /* XPCheckBoxViewController.m in Sources */,
 				B22F54E01C4DCD1100AB2D12 /* XPCombox.m in Sources */,
-				B22F54DD1C4DCB5A00AB2D12 /* XPRadioButtonViewController.m in Sources */,
 				B29FDB471C494CEA00DA6308 /* main.m in Sources */,
+				B22F54F51C4E903600AB2D12 /* XPRadioButtonViewController.m in Sources */,
 				B29FDB751C494D8300DA6308 /* XPTextField.m in Sources */,
-				B29FDB991C4B522C00DA6308 /* XPTextFieldViewController.m in Sources */,
-				B29FDB981C4B522C00DA6308 /* XPCheckBoxViewController.m in Sources */,
 				B29FDB731C494D8300DA6308 /* XPRadioButton.m in Sources */,
 				B29FDB741C494D8300DA6308 /* XPRadioButtonGroup.m in Sources */,
+				B22F55711C50AA5E00AB2D12 /* XPRadioButtonGroupViewController.m in Sources */,
+				B22F54F61C4E903600AB2D12 /* XPTextFieldViewController.m in Sources */,
 				B29FDB701C494D8300DA6308 /* XPCheckBoxGroup.m in Sources */,
 				B29FDB721C494D8300DA6308 /* XPLinkButton.m in Sources */,
 			);
@@ -306,15 +313,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B29FDB4E1C494CEA00DA6308 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B29FDB4F1C494CEA00DA6308 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		B29FDB531C494CEA00DA6308 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = ./XPFormControlsExamples/PrefixHeader.pch;
 				INFOPLIST_FILE = XPFormControlsExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -422,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = ./XPFormControlsExamples/PrefixHeader.pch;
 				INFOPLIST_FILE = XPFormControlsExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

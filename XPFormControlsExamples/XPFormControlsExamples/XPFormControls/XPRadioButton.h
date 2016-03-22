@@ -14,7 +14,7 @@ typedef enum : NSUInteger {
     XPRadioStyleCustom
 } XPRadioStyle;
 
-typedef void(^CheckedBlock)(BOOL isSelected);
+typedef void(^CheckedBlock)(id responseObj,BOOL isChecked);
 
 @interface XPRadioButton : UIButton
 
