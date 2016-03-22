@@ -148,6 +148,7 @@
 }
 
 -(void)textFieldDidEndEditing:(UITextField *)textField{
+
     NSLog(@"------%@",textField.text);
 }
 

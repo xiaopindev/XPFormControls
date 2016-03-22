@@ -131,10 +131,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVH-iU-7C9">
                                 <rect key="frame" x="44" y="142" width="232" height="36"/>
-<<<<<<< HEAD
-                                <animations/>
-=======
->>>>>>> hotfix/addBlock
                                 <color key="backgroundColor" red="1" green="0.85569014990000003" blue="0.6355213287" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="RadioButton"/>
                                 <connections>

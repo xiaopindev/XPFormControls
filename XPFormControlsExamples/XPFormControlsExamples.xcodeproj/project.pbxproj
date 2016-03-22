@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22F0D461CA1B9520048CA11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22F0D451CA1B9520048CA11 /* Main.storyboard */; };
 		B22F54CD1C4D46B800AB2D12 /* xpf_cb_1_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F54BF1C4D46B800AB2D12 /* xpf_cb_1_0@2x.png */; };
 		B22F54CE1C4D46B800AB2D12 /* xpf_cb_1_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F54C01C4D46B800AB2D12 /* xpf_cb_1_1@2x.png */; };
 		B22F54CF1C4D46B800AB2D12 /* xpf_cb_2_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22F54C11C4D46B800AB2D12 /* xpf_cb_2_0@2x.png */; };
@@ -29,7 +30,6 @@
 		B29FDB471C494CEA00DA6308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB461C494CEA00DA6308 /* main.m */; };
 		B29FDB4A1C494CEA00DA6308 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB491C494CEA00DA6308 /* AppDelegate.m */; };
 		B29FDB4D1C494CEA00DA6308 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB4C1C494CEA00DA6308 /* ViewController.m */; };
-		B29FDB501C494CEA00DA6308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29FDB4E1C494CEA00DA6308 /* Main.storyboard */; };
 		B29FDB521C494CEA00DA6308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29FDB511C494CEA00DA6308 /* Assets.xcassets */; };
 		B29FDB551C494CEA00DA6308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29FDB531C494CEA00DA6308 /* LaunchScreen.storyboard */; };
 		B29FDB6F1C494D8300DA6308 /* XPCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = B29FDB621C494D8300DA6308 /* XPCheckBox.m */; };
@@ -42,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B22F0D451CA1B9520048CA11 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B22F54BF1C4D46B800AB2D12 /* xpf_cb_1_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xpf_cb_1_0@2x.png"; sourceTree = "<group>"; };
 		B22F54C01C4D46B800AB2D12 /* xpf_cb_1_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xpf_cb_1_1@2x.png"; sourceTree = "<group>"; };
 		B22F54C11C4D46B800AB2D12 /* xpf_cb_2_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xpf_cb_2_0@2x.png"; sourceTree = "<group>"; };
@@ -72,7 +73,6 @@
 		B29FDB491C494CEA00DA6308 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B29FDB4B1C494CEA00DA6308 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B29FDB4C1C494CEA00DA6308 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B29FDB4F1C494CEA00DA6308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B29FDB511C494CEA00DA6308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B29FDB541C494CEA00DA6308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B29FDB561C494CEA00DA6308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 		B29FDB931C4B522C00DA6308 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				B29FDB4E1C494CEA00DA6308 /* Main.storyboard */,
+				B22F0D451CA1B9520048CA11 /* Main.storyboard */,
 				B22F54EE1C4E903600AB2D12 /* XPCheckBoxViewController.h */,
 				B22F54EF1C4E903600AB2D12 /* XPCheckBoxViewController.m */,
 				B22F54F01C4E903600AB2D12 /* XPRadioButtonViewController.h */,
@@ -280,7 +280,7 @@
 				B29FDB8B1C4A853C00DA6308 /* XPFormControls.bundle in Resources */,
 				B22F54DA1C4D46B800AB2D12 /* xpf_rb_3_1@2x.png in Resources */,
 				B22F54CE1C4D46B800AB2D12 /* xpf_cb_1_1@2x.png in Resources */,
-				B29FDB501C494CEA00DA6308 /* Main.storyboard in Resources */,
+				B22F0D461CA1B9520048CA11 /* Main.storyboard in Resources */,
 				B22F54D51C4D46B800AB2D12 /* xpf_rb_2_0@2x.png in Resources */,
 				B22F54D41C4D46B800AB2D12 /* xpf_rb_1_1@2x.png in Resources */,
 			);
@@ -313,15 +313,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B29FDB4E1C494CEA00DA6308 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B29FDB4F1C494CEA00DA6308 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		B29FDB531C494CEA00DA6308 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
